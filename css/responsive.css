@@ -1,0 +1,32 @@
+@media(max-width:850px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100% !important;
+        height: 400px;
+    }
+
+    .right {
+        width: 100% !important;
+    }
+
+    .btn {
+        font-size: var(--font-size-xsm);
+    }
+    nav{
+        justify-content: center;
+    }
+}
+
+@media(max-width:450px) {
+    .fullscreen {
+        padding: 0 var(--padding-lg) !important;
+        gap: var(--gutter-md);
+    }
+
+    .right{
+        padding: var(--padding-lg) var(--padding-xl) !important;
+    }
+}

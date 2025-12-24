@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCraft</title>
+    <link rel="icon" type="image/png" href="icons/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <main>
+        <section class="fullscreen">
+
+            <nav>
+                <img src="icons/logo.png" alt="">
+                <h1>PixelCraft</h1>
+            </nav>
+
+            <div class="main-container">
+
+                <div class="left">
+                    <div class="top">
+                        <label class="btn" for="input-image">
+                            Chose image
+                            <input type="file" id="input-image" accept="image/" hidden>
+                        </label>
+                        <button class="btn" id="reset-btn">Reset</button>
+                        <button class="btn" id="download-btn">Download</button>
+                    </div>
+                    <div class="bottom">
+                        <div class="placeholder">
+                            <i class="ri-image-line"></i>
+                            <p>No image selected</p>
+                        </div>
+
+                        <canvas id="imageCanvas"></canvas>
+
+                    </div>
+                </div>
+                <div class="right">
+                    <h2>Filters</h2>
+                    <div class="filter-container"></div>
+                    <h2>Presets</h2>
+                    <div class="preset-container"></div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
