@@ -18,6 +18,14 @@
     nav{
         justify-content: center;
     }
+
+    main section .bottom {
+        height: 330px !important;
+    }
+
+    main section .bottom .placeholder i {
+        font-size: 6rem !important;
+    }
 }
 
 @media(max-width:450px) {
